@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1622645787137,
+  "lastUpdate": 1622645832058,
   "repoUrl": "https://github.com/jplatte/hyper",
   "entries": {
     "connect": [
@@ -1981,6 +1981,36 @@ window.BENCHMARK_DATA = {
             "name": "hello_world_16",
             "value": 57415,
             "range": "± 1920",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sean@seanmonstar.com",
+            "name": "Sean McArthur",
+            "username": "seanmonstar"
+          },
+          "committer": {
+            "email": "sean@seanmonstar.com",
+            "name": "Sean McArthur",
+            "username": "seanmonstar"
+          },
+          "distinct": false,
+          "id": "0d82405a7bf6a812bdfe50885f4684cd9421fc92",
+          "message": "refactor(http1): emit trace logs when buffering write data",
+          "timestamp": "2021-06-01T18:21:15-07:00",
+          "tree_id": "d788373b092f8f780373070b45b7b14446e24f2f",
+          "url": "https://github.com/jplatte/hyper/commit/0d82405a7bf6a812bdfe50885f4684cd9421fc92"
+        },
+        "date": 1622645830162,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "hello_world_16",
+            "value": 70804,
+            "range": "± 18192",
             "unit": "ns/iter"
           }
         ]
